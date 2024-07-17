@@ -67,7 +67,32 @@ nav ul li a {
     margin: 10px 60px 0px 50px;
     justify-content: space-between;
 }
-
+.all-ways-colour{
+background-color: rgb(255, 248, 243);
+height: 400px;
+margin-left: 20%;
+margin-top: 30px;
+margin-right: 20%;
+padding: 20px 20px;
+margin-bottom: 50px;
+}
+  .abouttocolor{
+    background-color:
+    rgb(255, 255, 255);
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 50px;
+    margin-top: 20px;
+    padding-top: 10px;
+    /* padding-bottom: px; */
+    text-align: center;
+  }
+  .about-items {
+    display: flex;
+    justify-content: space-around;
+    gap: 30px;
+    align-items: center;
+  }
 .banner-image{
     max-width: 585px;
 }
@@ -88,4 +113,45 @@ nav ul li a {
 .banner-text {
     font-weight:400;
     font-size :18px;
+}
+.third-section{
+    text-align: center;
+    margin-top: 10px;
+}
+.third-p-section{
+    text-align: center;
+    margin-bottom: 5%;
+}
+.skills-container{
+  margin-left: 30px;
+  margin-right: 30px;
+    display: flex;
+    justify-content: space-around;
+    padding-right: 10%;
+    padding-left: 10%;
+    border-radius: 5px;
+    gap: 10%;
+    padding: 20px;
+
+/* background: rgb(255, 255, 255); */
+  
+}
+.skills{
+    padding: 40px;
+    box-shadow:0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.resume-container{
+    display: flex;
+    gap: 30px;
+    margin: 5%;
+   color: rgb(71, 71, 71); 
+}
+.hide{
+    display: none;
+}
+@media screen and (max-width: 576px){
+    .skills-container , .resume-container{
+        flex-direction: column;
+    }
 }
